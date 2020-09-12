@@ -1,0 +1,76 @@
+/*
+    Vars
+*/
+$fontType: "Open Sans", "sans-serif";
+$defaultFontSize: 100%;
+$smallFontSize: 90%;
+$navFontSize: 120%;
+$black: #000000;
+$white: #ffffff;
+$gold: #daa520;
+$anchorTagTransition: ".4s ease-in-out";
+
+/*
+    Mixins
+*/
+
+@mixin translateY($e) {
+  -webkit-transform: translateY($e);
+  -moz-transform: translateY($e);
+  transform: translateY($e);
+}
+
+@mixin transition($e) {
+  -webkit-transition: $e;
+  -moz-transition: $e;
+  transition: $e;
+}
+
+@mixin centerOuter {
+  text-align: center;
+  width:100%;
+}
+
+@mixin leftInner {
+  display: inline-block;
+  text-align: left;
+  width:100%;
+}
+
+//Default Horizontal Line
+hr {
+  background-color: #ffffff;
+  width: 75%;
+  opacity: 0.3;
+}
+
+//Default Body
+
+body {
+  font-family: $fontType;
+  font-size: $defaultFontSize;
+  position: relative;
+  min-height: 100vh;
+  padding-bottom: 450px;
+}
+
+.container-fluid {
+  line-height: 24px;
+}
+
+//Default Anchor Tags
+a {
+  @include transition($anchorTagTransition);
+  cursor: pointer;
+  color: $black;
+  &:hover {
+    color: red;
+    text-decoration: none;
+    @include transition($anchorTagTransition);
+  }
+}
+
+//Default Unordered List Items
+ul li {
+  list-style-type: none;
+}

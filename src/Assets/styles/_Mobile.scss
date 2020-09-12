@@ -1,0 +1,10 @@
+@media only screen and (max-width: 600px) {
+  footer {
+    .footer-mainheading {
+       @include leftInner();
+      }
+      hr{
+          width:100%
+      }
+  }
+}

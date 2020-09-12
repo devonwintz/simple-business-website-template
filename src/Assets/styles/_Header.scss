@@ -1,0 +1,44 @@
+header{
+    position: relative;
+    display: block;
+    width: 100%;
+    background: $white;
+    height: 90px;
+
+    .logo{
+        @include translateY(-50%);
+        font-size: $navFontSize;
+        top: 50%; left: 15px;
+        position: absolute;
+        font-weight: bold;
+        color: $black;
+    }
+
+    nav, nav ul, nav ul li{
+        margin: 0;
+        padding: 0;
+    }
+
+    nav{
+        position: absolute;
+        top: 50%; right: 15px;
+        @include translateY(-50%); 
+
+        ul li{
+            display: inline-block;
+            margin-right: 20px;
+            &.last{
+                margin:0;
+            }
+            a {
+                font-size: $navFontSize;
+                line-height: normal;
+            }
+
+        }
+    }
+
+    .hero{
+        height: 100vh;
+    }
+}

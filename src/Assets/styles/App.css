@@ -1,0 +1,236 @@
+/*
+    Vars
+*/
+/*
+    Mixins
+*/
+hr {
+  background-color: #ffffff;
+  width: 75%;
+  opacity: 0.3;
+}
+
+body {
+  font-family: "Open Sans", "sans-serif";
+  font-size: 100%;
+  position: relative;
+  min-height: 100vh;
+  padding-bottom: 450px;
+}
+
+.container-fluid {
+  line-height: 24px;
+}
+
+a {
+  -webkit-transition: ".4s ease-in-out";
+  transition: ".4s ease-in-out";
+  cursor: pointer;
+  color: #000000;
+}
+
+a:hover {
+  color: red;
+  text-decoration: none;
+  -webkit-transition: ".4s ease-in-out";
+  transition: ".4s ease-in-out";
+}
+
+ul li {
+  list-style-type: none;
+}
+
+header {
+  position: relative;
+  display: block;
+  width: 100%;
+  background: #ffffff;
+  height: 90px;
+}
+
+header .logo {
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+  font-size: 120%;
+  top: 50%;
+  left: 15px;
+  position: absolute;
+  font-weight: bold;
+  color: #000000;
+}
+
+header nav, header nav ul, header nav ul li {
+  margin: 0;
+  padding: 0;
+}
+
+header nav {
+  position: absolute;
+  top: 50%;
+  right: 15px;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+header nav ul li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+header nav ul li.last {
+  margin: 0;
+}
+
+header nav ul li a {
+  font-size: 120%;
+  line-height: normal;
+}
+
+header .hero {
+  height: 100vh;
+}
+
+footer {
+  background-color: #1c2331;
+  font-size: 90%;
+  padding-bottom: 1%;
+  color: #ffffff;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+footer .outer-container {
+  text-align: center;
+  width: 100%;
+  margin: 0 auto;
+}
+
+footer .inner-container {
+  display: inline-block;
+  text-align: left;
+  width: 100%;
+}
+
+footer .btn {
+  background: #daa520;
+  color: #ffffff;
+}
+
+footer a {
+  color: #ffffff;
+}
+
+footer .footer-mainheading {
+  font-weight: bold;
+  color: #daa520;
+}
+
+footer .footer-subheading {
+  font-size: 90%;
+  font-weight: bold;
+  color: #daa520;
+}
+
+.slider {
+  position: relative;
+  width: 100%;
+  height: 70vh;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  overflow: hidden;
+}
+
+.slider button {
+  border: none;
+  background: rgba(255, 255, 255, 0);
+}
+
+.slider button:hover {
+  background: rgba(255, 255, 255, 0.3);
+}
+
+.slide {
+  position: relative;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  min-width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.btn-styles {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  width: 10%;
+  height: 100%;
+}
+
+#goRight {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  width: 10%;
+  height: 100%;
+}
+
+#goLeft {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  width: 10%;
+  height: 100%;
+}
+
+.main-heading {
+  font-size: 120%;
+  font-weight: bold;
+}
+
+.sub-heading {
+  font-size: 100%;
+  font-weight: bold;
+}
+
+.what-we-d0-content, .reasons {
+  font-size: 90%;
+  font-weight: normal;
+}
+
+.center {
+  text-align: center;
+}
+
+.horizontal-line {
+  background-color: #daa520;
+  height: 0.3px;
+}
+
+@media only screen and (max-width: 600px) {
+  footer .footer-mainheading {
+    display: inline-block;
+    text-align: left;
+    width: 100%;
+  }
+  footer hr {
+    width: 100%;
+  }
+}
+/*# sourceMappingURL=App.css.map */
