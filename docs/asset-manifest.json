@@ -1,18 +1,17 @@
 {
   "files": {
-    "main.css": "/simple-business-website-template/static/css/main.fd99326d.chunk.css",
-    "main.js": "/simple-business-website-template/static/js/main.23446528.chunk.js",
-    "main.js.map": "/simple-business-website-template/static/js/main.23446528.chunk.js.map",
+    "main.css": "/simple-business-website-template/static/css/main.b4ef47fb.chunk.css",
+    "main.js": "/simple-business-website-template/static/js/main.1560482b.chunk.js",
+    "main.js.map": "/simple-business-website-template/static/js/main.1560482b.chunk.js.map",
     "runtime-main.js": "/simple-business-website-template/static/js/runtime-main.cf0bc627.js",
     "runtime-main.js.map": "/simple-business-website-template/static/js/runtime-main.cf0bc627.js.map",
-    "static/js/2.59b4dd17.chunk.js": "/simple-business-website-template/static/js/2.59b4dd17.chunk.js",
-    "static/js/2.59b4dd17.chunk.js.map": "/simple-business-website-template/static/js/2.59b4dd17.chunk.js.map",
+    "static/js/2.9cb0f912.chunk.js": "/simple-business-website-template/static/js/2.9cb0f912.chunk.js",
+    "static/js/2.9cb0f912.chunk.js.map": "/simple-business-website-template/static/js/2.9cb0f912.chunk.js.map",
     "index.html": "/simple-business-website-template/index.html",
-    "precache-manifest.507c6942a137e47c6f4b24dcf28f7037.js": "/simple-business-website-template/precache-manifest.507c6942a137e47c6f4b24dcf28f7037.js",
+    "precache-manifest.603d045756a9efebcb2f477679d4a40d.js": "/simple-business-website-template/precache-manifest.603d045756a9efebcb2f477679d4a40d.js",
     "service-worker.js": "/simple-business-website-template/service-worker.js",
-    "static/css/main.fd99326d.chunk.css.map": "/simple-business-website-template/static/css/main.fd99326d.chunk.css.map",
-    "static/js/2.59b4dd17.chunk.js.LICENSE.txt": "/simple-business-website-template/static/js/2.59b4dd17.chunk.js.LICENSE.txt",
-    "static/media/analytics.png": "/simple-business-website-template/static/media/analytics.cfa58b6e.png",
+    "static/css/main.b4ef47fb.chunk.css.map": "/simple-business-website-template/static/css/main.b4ef47fb.chunk.css.map",
+    "static/js/2.9cb0f912.chunk.js.LICENSE.txt": "/simple-business-website-template/static/js/2.9cb0f912.chunk.js.LICENSE.txt",
     "static/media/coding.png": "/simple-business-website-template/static/media/coding.4278d960.png",
     "static/media/email-gold.png": "/simple-business-website-template/static/media/email-gold.9aa1f1e5.png",
     "static/media/instagram-gold.png": "/simple-business-website-template/static/media/instagram-gold.847640e1.png",
@@ -22,13 +21,12 @@
     "static/media/slide1.jpg": "/simple-business-website-template/static/media/slide1.23586eea.jpg",
     "static/media/twitter-gold.png": "/simple-business-website-template/static/media/twitter-gold.95c717c6.png",
     "static/media/website-design.png": "/simple-business-website-template/static/media/website-design.965897a7.png",
-    "static/media/website-optimization.png": "/simple-business-website-template/static/media/website-optimization.81c03560.png",
     "static/media/youtube-gold.png": "/simple-business-website-template/static/media/youtube-gold.614cd00c.png"
   },
   "entrypoints": [
     "static/js/runtime-main.cf0bc627.js",
-    "static/js/2.59b4dd17.chunk.js",
-    "static/css/main.fd99326d.chunk.css",
-    "static/js/main.23446528.chunk.js"
+    "static/js/2.9cb0f912.chunk.js",
+    "static/css/main.b4ef47fb.chunk.css",
+    "static/js/main.1560482b.chunk.js"
   ]
 }

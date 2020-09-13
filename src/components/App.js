@@ -6,7 +6,6 @@ import Footer from "./Footer/Footer";
 import HomePage from "./Pages/HomePage";
 import ServicesPage from "./Pages/ServicesPage";
 import Carousel from "./Carousel/Carousel";
-import Services from "./Services/Services";
 //Includes
 import "../Assets/styles/App.css";
 
@@ -18,7 +17,6 @@ function App() {
         <Carousel />
         <Route exact path="/" component={HomePage} />
         <Route exact path="/services" component={ServicesPage} />
-        <Services />
         <Footer />
       </div>
     </Router>

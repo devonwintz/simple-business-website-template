@@ -1,44 +1,51 @@
-header{
-    position: relative;
-    display: block;
-    width: 100%;
-    background: $white;
-    height: 90px;
+header {
+  //General Header Settings
+  position: relative;
+  display: block;
+  width: 100%;
+  background: $white;
+  height: 90px;
 
-    .logo{
-        @include translateY(-50%);
-        font-size: $navFontSize;
-        top: 50%; left: 15px;
-        position: absolute;
-        font-weight: bold;
-        color: $black;
-    }
+  //Nav Logo
+  .nav-logo {
+    margin-left: 20px;
+    font-size: $largeFontSize;
+    font-weight: bolder;
+    color: $black;
+  }
 
-    nav, nav ul, nav ul li{
-        margin: 0;
-        padding: 0;
-    }
+  nav,
+  nav ul,
+  nav ul li {
+    margin: 0;
+    padding: 0;
+  }
 
-    nav{
-        position: absolute;
-        top: 50%; right: 15px;
-        @include translateY(-50%); 
+  //General Nav Styles
+  nav {
+    z-index: 1000;
+    position: absolute;
+    top: 50%;
+    right: 15px;
+    @include translateY(-50%);
 
-        ul li{
-            display: inline-block;
-            margin-right: 20px;
-            &.last{
-                margin:0;
-            }
-            a {
-                font-size: $navFontSize;
-                line-height: normal;
-            }
+    //List Items In Nav
+    ul li {
+      margin-right: 20px;
 
+      //Nav-Items
+      a {
+        padding: 7px 15px;
+        font-size: $defaultFontSize;
+        line-height: normal;
+        border-radius: 8px;
+        text-transform: uppercase;
+        //Nav-Items On Hover
+        &:hover {
+          color: red;
         }
+      }
     }
+  }
 
-    .hero{
-        height: 100vh;
-    }
 }

@@ -1,10 +1,54 @@
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 952px) {
+  //Remove Height From Slider In Mobile View
+  .slider {
+    height: 0 !important;
+  }
+
+  //Header Items
+  header {
+    nav {
+      top: 10;
+    }
+    ul {
+      width: 100%;
+
+      background: #1c2331;
+      text-align: center;
+      position: fixed;
+
+      li {
+        a {
+          color: $white;
+        }
+        .dropdown-menu {
+          background: #1c2331;
+          color: $white;
+          .dropdown-item {
+            text-align: center;
+            background: #1c2331;
+            color: $white;
+            &:hover {
+              color: red;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  //Footer
   footer {
     .footer-mainheading {
-       @include leftInner();
-      }
-      hr{
-          width:100%
-      }
+      @include leftInner();
+    }
+    hr {
+      width: 100%;
+    }
+  }
+
+  //Icons/Images Used For Services
+  .service-img {
+    width: 10%;
+    margin-top: 5%;
   }
 }

@@ -1,33 +1,43 @@
 footer {
+  //General Footer Styles
   background-color: #1c2331;
   font-size: $smallFontSize;
   padding-bottom: 1%;
   color: $white;
   width: 100%;
   position: absolute;
+  margin-top: auto;
   bottom: 0;
   left: 0;
   right: 0;
 
+  //Outer Container
   .outer-container {
     @include centerOuter();
     margin: 0 auto;
   }
+
+  //Inner Container
   .inner-container {
     @include leftInner();
   }
+
+  //Subscribe Button
   .btn {
     background: $gold;
     color: $white;
   }
 
+  //Navigation Links
   a {
     color: $white;
   }
+  //Main-Heading
   .footer-mainheading {
     font-weight: bold;
     color: $gold;
   }
+  //Sub-Heading
   .footer-subheading {
     font-size: $smallFontSize;
     font-weight: bold;
