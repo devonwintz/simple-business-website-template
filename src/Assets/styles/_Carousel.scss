@@ -1,14 +1,15 @@
 .slider {
+  min-height: 200px;
+  height: 70vh;
   position: relative;
   width: 100%;
-  height: 70vh;
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  display: flex;
   align-items: center;
   overflow: hidden;
 
+  //Slider Button
   button {
     border: none;
     background: rgba(255, 255, 255, 0);
@@ -19,6 +20,7 @@
   }
 }
 
+//Slide
 .slide {
   position: relative;
   transition: 0.5s;

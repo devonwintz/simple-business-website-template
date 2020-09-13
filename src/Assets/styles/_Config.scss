@@ -4,8 +4,9 @@
 $fontType: "Open Sans", "sans-serif";
 $defaultFontSize: 100%;
 $smallFontSize: 90%;
+$largeFontSize: 150%;
 $navFontSize: 120%;
-$black: #000000;
+$black: #291515;
 $white: #ffffff;
 $gold: #daa520;
 $anchorTagTransition: ".4s ease-in-out";
@@ -28,13 +29,13 @@ $anchorTagTransition: ".4s ease-in-out";
 
 @mixin centerOuter {
   text-align: center;
-  width:100%;
+  width: 100%;
 }
 
 @mixin leftInner {
   display: inline-block;
   text-align: left;
-  width:100%;
+  width: 100%;
 }
 
 //Default Horizontal Line
@@ -44,18 +45,14 @@ hr {
   opacity: 0.3;
 }
 
-//Default Body
-
-body {
+//Default Body WRAPPED IN 'container-fluid'
+.container-fluid {
+  position: relative;
+  min-height: 50vh;
+  flex-direction: column;
+  display: flex;
   font-family: $fontType;
   font-size: $defaultFontSize;
-  position: relative;
-  min-height: 100vh;
-  padding-bottom: 450px;
-}
-
-.container-fluid {
-  line-height: 24px;
 }
 
 //Default Anchor Tags

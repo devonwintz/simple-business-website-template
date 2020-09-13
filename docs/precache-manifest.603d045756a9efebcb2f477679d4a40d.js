@@ -1,31 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "0a7e27ed529b457d60ac6ccc9a3efdb0",
+    "revision": "617f8874998130f972f8137d4255d57f",
     "url": "/simple-business-website-template/index.html"
   },
   {
-    "revision": "877b6d051d3b054481ab",
-    "url": "/simple-business-website-template/static/css/main.fd99326d.chunk.css"
+    "revision": "bf6e8ac2994cfe4e4280",
+    "url": "/simple-business-website-template/static/css/main.b4ef47fb.chunk.css"
   },
   {
-    "revision": "a6c9804b1d89cd51e968",
-    "url": "/simple-business-website-template/static/js/2.59b4dd17.chunk.js"
+    "revision": "f335d6d0b2b239a085d9",
+    "url": "/simple-business-website-template/static/js/2.9cb0f912.chunk.js"
   },
   {
     "revision": "4ba1a1c11c57ed15aa68008707a3d6b4",
-    "url": "/simple-business-website-template/static/js/2.59b4dd17.chunk.js.LICENSE.txt"
+    "url": "/simple-business-website-template/static/js/2.9cb0f912.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "877b6d051d3b054481ab",
-    "url": "/simple-business-website-template/static/js/main.23446528.chunk.js"
+    "revision": "bf6e8ac2994cfe4e4280",
+    "url": "/simple-business-website-template/static/js/main.1560482b.chunk.js"
   },
   {
     "revision": "43a8f6cf3aa2b2c34ebe",
     "url": "/simple-business-website-template/static/js/runtime-main.cf0bc627.js"
-  },
-  {
-    "revision": "cfa58b6e7513caa9184d0a6bd67898d1",
-    "url": "/simple-business-website-template/static/media/analytics.cfa58b6e.png"
   },
   {
     "revision": "4278d960efd608335128cf496428ecb3",
@@ -62,10 +58,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "965897a70565f3661b19c8be17087dba",
     "url": "/simple-business-website-template/static/media/website-design.965897a7.png"
-  },
-  {
-    "revision": "81c03560a37f621e70d1d727b37312cb",
-    "url": "/simple-business-website-template/static/media/website-optimization.81c03560.png"
   },
   {
     "revision": "614cd00c39e11a09e6c952face3495e2",
