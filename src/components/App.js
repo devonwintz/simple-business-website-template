@@ -15,8 +15,8 @@ function App() {
       <div className="App">
         <Header />
         <Carousel />
-        <Route exact path="/" component={HomePage} />
-        <Route exact path="/services" component={ServicesPage} />
+        <Route exact path="/simple-business-website-template/" component={HomePage} />
+        <Route exact path="/simple-business-website-template/services" component={ServicesPage} />
         <Footer />
       </div>
     </Router>
