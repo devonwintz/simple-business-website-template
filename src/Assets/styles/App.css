@@ -5,12 +5,12 @@
     Mixins
 */
 hr {
-  background-color: #ffffff;
+  background-color: #daa520;
   width: 75%;
   opacity: 0.3;
 }
 
-.container-fluid {
+.container-fluid, body {
   position: relative;
   min-height: 50vh;
   -webkit-box-orient: vertical;
@@ -40,6 +40,14 @@ a:hover {
 
 ul li {
   list-style-type: none;
+}
+
+.gold {
+  color: #daa520;
+}
+
+.footer-temp {
+  font-size: 90%;
 }
 
 header {
@@ -73,6 +81,11 @@ header nav {
   transform: translateY(-50%);
 }
 
+header nav .active a {
+  color: red;
+  font-weight: normal !important;
+}
+
 header nav ul li {
   margin-right: 20px;
 }
@@ -87,6 +100,16 @@ header nav ul li a {
 
 header nav ul li a:hover {
   color: red;
+  font-weight: bold;
+}
+
+header nav .dropdown-item {
+  color: #000000 !important;
+}
+
+header nav .dropdown-item:hover {
+  color: red !important;
+  font-weight: bold !important;
 }
 
 footer {
@@ -136,7 +159,7 @@ footer .footer-subheading {
 
 .slider {
   min-height: 200px;
-  height: 70vh;
+  height: 75vh;
   position: relative;
   width: 100%;
   -webkit-box-sizing: border-box;
@@ -197,6 +220,17 @@ footer .footer-subheading {
   height: 100%;
 }
 
+.bigLabel {
+  text-align: center !important;
+  font-size: 300%;
+}
+
+.biggerLabel {
+  font-weight: bolder;
+  font-size: 150%;
+  color: #daa520;
+}
+
 .main-heading {
   font-size: 120%;
   font-weight: bold;
@@ -250,16 +284,23 @@ footer .footer-subheading {
   header ul li .dropdown-menu .dropdown-item:hover {
     color: red;
   }
-  footer .footer-mainheading {
+  .footer .footer-mainheading {
     display: inline-block;
     text-align: left;
     width: 100%;
   }
-  footer hr {
+  .footer hr {
     width: 100%;
   }
   .service-img {
-    width: 10%;
+    width: 15%;
+    margin-top: 5%;
+  }
+}
+
+@media screen and (min-width: 767px) {
+  .service-img {
+    width: 15%;
     margin-top: 5%;
   }
 }
