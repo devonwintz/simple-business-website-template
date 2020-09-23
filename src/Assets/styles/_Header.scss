@@ -29,6 +29,13 @@ header {
     right: 15px;
     @include translateY(-50%);
 
+    .active {
+      a {
+        color: red;
+        font-weight: normal !important;
+      }
+    }
+
     //List Items In Nav
     ul li {
       margin-right: 20px;
@@ -43,9 +50,17 @@ header {
         //Nav-Items On Hover
         &:hover {
           color: red;
+          font-weight: bold;
         }
       }
     }
-  }
 
+    .dropdown-item {
+      color: #000000 !important;
+      &:hover{
+        color: red !important;
+        font-weight: bold !important;
+      }
+    }
+  }
 }

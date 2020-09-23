@@ -1,13 +1,22 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
+import $ from "jquery";
 
 class Header extends Component {
+
+  componentDidMount(){
+    $('.navbar-nav>li').click(function(){
+      $('.active').toggleClass("active");
+      $(this).toggleClass("active");
+  })
+  }
+
   render() {
     return (
-      <header>
+      <header className="">
         <nav className="navbar navbar-expand-lg">
           <Link
-            className="navbar-brand nav-logo"
+            className="navbar-brand nav-logo active"
             to="/simple-business-website-template/"
           >
             YOUR LOGO
@@ -47,17 +56,17 @@ class Header extends Component {
                 </Link>
                 <div className="dropdown-menu" aria-labelledby="navbarDropdown">
                   <hr />
-                  <Link className="dropdown-item" to="/simple-business-website-template/">
+                  <Link className="dropdown-item" to="/simple-business-website-template/who-we-are">
                     Who We Are
                   </Link>
-                  <Link className="dropdown-item" to="/simple-business-website-template/">
+                  <Link className="dropdown-item" to="/simple-business-website-template/what-we-do">
                     What We Do
                   </Link>
                   <hr />
                 </div>
               </li>
               <li className="nav-item">
-                <Link className="nav-link" to="simple-business-website-template/">
+                <Link className="nav-link" to="/simple-business-website-template/contact-us">
                   Contact Us
                 </Link>
               </li>

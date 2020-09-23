@@ -37,7 +37,7 @@
   }
 
   //Footer
-  footer {
+  .footer {
     .footer-mainheading {
       @include leftInner();
     }
@@ -48,7 +48,15 @@
 
   //Icons/Images Used For Services
   .service-img {
-    width: 10%;
+    width: 15%;
     margin-top: 5%;
   }
+}
+
+@media screen and (min-width: 767px){
+    //Icons/Images Used For Services
+    .service-img {
+      width: 15%;
+      margin-top: 5%;
+    }
 }

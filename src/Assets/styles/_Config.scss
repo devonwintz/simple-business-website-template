@@ -40,13 +40,13 @@ $anchorTagTransition: ".4s ease-in-out";
 
 //Default Horizontal Line
 hr {
-  background-color: #ffffff;
+  background-color: $gold;
   width: 75%;
   opacity: 0.3;
 }
 
 //Default Body WRAPPED IN 'container-fluid'
-.container-fluid {
+.container-fluid, body {
   position: relative;
   min-height: 50vh;
   flex-direction: column;
@@ -70,4 +70,12 @@ a {
 //Default Unordered List Items
 ul li {
   list-style-type: none;
+}
+
+.gold {
+  color: $gold;
+}
+
+.footer-temp {
+  font-size: 90%;
 }

@@ -14,7 +14,7 @@ import pinIcon from "../../Assets/images/social-media-icons/pin-gold.png";
 class Footer extends Component {
   render() {
     return (
-      <footer className="container-fluid">
+      <footer className="container-fluid align-items-center footer-temp">
         <div className="row outer-container mt-3">
           <div className="col-md-4 mt-3">
             <span className="footer-mainheading">WHO WE ARE</span>

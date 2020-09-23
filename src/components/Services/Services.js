@@ -18,48 +18,60 @@ const Services = () => {
         tempor incididunt ut labore et dolore magna aliqua.
       </div>
       <div className="row center mt-5">
-        <div className="col-md-3">
+        <div className="col-12  col-md-3">
           <img
             className="service-img service-1"
             src={coding}
             alt="coding-icon"
-            width="20%"
+            width="15%"
           />
           <div className="sub-heading">Service 1</div>
           <div className="what-we-d0-content">Ut enim ad minima veniam</div>
+          <div className="service-content mt-2">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+          </div>
         </div>
 
-        <div className="col-md-3">
+        <div className="col-12 col-md-3">
           <img
             className="service-img"
             src={computer}
             alt="computer-icon"
-            width="20%"
+            width="15%"
           />
           <div className="sub-heading">Service 2</div>
           <div className="what-we-d0-content">Ut enim ad minima veniam</div>
+          <div className="service-content mt-2">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+          </div>
         </div>
 
-        <div className="col-md-3">
+        <div className="col-12 col-md-3">
           <img
             className="service-img"
             src={settings}
             alt="settings-icon"
-            width="20%"
+            width="15%"
           />
           <div className="sub-heading">Service 3</div>
           <div className="what-we-d0-content">Ut enim ad minima veniam</div>
+          <div className="service-content mt-2">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+          </div>
         </div>
 
-        <div className="col-md-3">
+        <div className="col-12 col-md-3">
           <img
             className="service-img"
             src={websiteDesign}
             alt="website-design-icon"
-            width="20%"
+            width="15%"
           />
           <div className="sub-heading">Service 4</div>
           <div className="what-we-d0-content">Ut enim ad minima veniam</div>
+          <div className="service-content mt-2">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+          </div>
         </div>
       </div>
     </div>
