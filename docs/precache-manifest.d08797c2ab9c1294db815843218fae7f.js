@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "8c4c2e30287aecd8362163ab8f063e0d",
+    "revision": "497d2a018be29b222c7fb3d58df180dd",
     "url": "/simple-business-website-template/index.html"
   },
   {
-    "revision": "21261ff4f2d18ee663b4",
-    "url": "/simple-business-website-template/static/css/main.b4ef47fb.chunk.css"
+    "revision": "7154d57d5ccbd8e9b6c2",
+    "url": "/simple-business-website-template/static/css/main.8d7c8e8d.chunk.css"
   },
   {
-    "revision": "f335d6d0b2b239a085d9",
-    "url": "/simple-business-website-template/static/js/2.9cb0f912.chunk.js"
+    "revision": "ba3d5c8db0808dbf64d5",
+    "url": "/simple-business-website-template/static/js/2.003368f5.chunk.js"
   },
   {
-    "revision": "4ba1a1c11c57ed15aa68008707a3d6b4",
-    "url": "/simple-business-website-template/static/js/2.9cb0f912.chunk.js.LICENSE.txt"
+    "revision": "45b662ab279d00dfdcca93c8979a4506",
+    "url": "/simple-business-website-template/static/js/2.003368f5.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "21261ff4f2d18ee663b4",
-    "url": "/simple-business-website-template/static/js/main.192e814a.chunk.js"
+    "revision": "7154d57d5ccbd8e9b6c2",
+    "url": "/simple-business-website-template/static/js/main.9e12ca3b.chunk.js"
   },
   {
     "revision": "43a8f6cf3aa2b2c34ebe",
@@ -48,8 +48,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/simple-business-website-template/static/media/skype-gold.d784b395.png"
   },
   {
+    "revision": "5bbb90210e7c520a13d860b53c92c865",
+    "url": "/simple-business-website-template/static/media/slide1.5bbb9021.jpg"
+  },
+  {
     "revision": "23586eea31f160df252f643fa68ad3a3",
-    "url": "/simple-business-website-template/static/media/slide1.23586eea.jpg"
+    "url": "/simple-business-website-template/static/media/slide2.23586eea.jpg"
+  },
+  {
+    "revision": "efd23350bbd43b543260226d11fadf85",
+    "url": "/simple-business-website-template/static/media/slide3.efd23350.jpg"
   },
   {
     "revision": "95c717c6960d842443869e54a2dfa393",
