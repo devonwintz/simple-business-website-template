@@ -5,7 +5,7 @@ import React from "react";
 const WhoWeAre = () => {
   return (
     <div className="mt-5 mb-5 service">
-      <div className="row">
+      <div className="row" id="who-we-are">
         {/*Full Row On XS Screens & Small Screens. While Half Row On Medium To XS Screens*/}
         <div className="col-12 col-sm-12 col-md-6">
           <div className="d-none d-lg-block text-center bigLabel">
@@ -41,7 +41,7 @@ const WhoWeAre = () => {
             cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
             cupidatat non proident, sunt in culpa qui officia deserunt mollit
             anim id est laborum.{" "}
-            <a className="gold" href="/who-we-are">
+            <a className="gold" href="/">
               Read More
             </a>
           </div>

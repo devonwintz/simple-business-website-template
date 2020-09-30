@@ -1,15 +1,19 @@
 import React, { Component } from "react";
+import { Tooltip, OverlayTrigger } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import $ from "jquery";
 
 class Header extends Component {
-
-  componentDidMount(){
-    $('.navbar-nav>li').click(function(){
-      $('.active').toggleClass("active");
+  componentDidMount() {
+    $(".navbar-nav>li").click(function () {
+      $(".active").toggleClass("active");
       $(this).toggleClass("active");
-  })
+    });
   }
+
+  renderTooltip = (props) => (
+    <Tooltip {...props}>Currently, under construction</Tooltip>
+  );
 
   render() {
     return (
@@ -38,7 +42,10 @@ class Header extends Component {
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav ml-auto">
               <li className="nav-item active">
-                <Link className="nav-link" to="/simple-business-website-template/">
+                <Link
+                  className="nav-link"
+                  to="/simple-business-website-template/"
+                >
                   Home
                 </Link>
               </li>
@@ -56,19 +63,46 @@ class Header extends Component {
                 </Link>
                 <div className="dropdown-menu" aria-labelledby="navbarDropdown">
                   <hr />
-                  <Link className="dropdown-item" to="/simple-business-website-template/who-we-are">
-                    Who We Are
-                  </Link>
-                  <Link className="dropdown-item" to="/simple-business-website-template/what-we-do">
-                    What We Do
-                  </Link>
+                  <OverlayTrigger
+                    placement="left"
+                    delay={{ show: 250, hide: 400 }}
+                    overlay={this.renderTooltip}
+                  >
+                    <Link
+                      className="dropdown-item"
+                      to="/simple-business-website-template/"
+                    >
+                      Who We Are
+                    </Link>
+                  </OverlayTrigger>
+                  <OverlayTrigger
+                    placement="left"
+                    delay={{ show: 250, hide: 400 }}
+                    overlay={this.renderTooltip}
+                  >
+                    <Link
+                      className="dropdown-item"
+                      to="/simple-business-website-template/"
+                    >
+                      What We Do
+                    </Link>
+                  </OverlayTrigger>
                   <hr />
                 </div>
               </li>
               <li className="nav-item">
-                <Link className="nav-link" to="/simple-business-website-template/contact-us">
-                  Contact Us
-                </Link>
+                <OverlayTrigger
+                  placement="bottom"
+                  delay={{ show: 250, hide: 400 }}
+                  overlay={this.renderTooltip}
+                >
+                  <Link
+                    className="nav-link"
+                    to="/simple-business-website-template/"
+                  >
+                    Contact Us
+                  </Link>
+                </OverlayTrigger>
               </li>
             </ul>
           </div>
