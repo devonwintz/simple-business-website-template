@@ -41,7 +41,7 @@ const WhoWeAre = () => {
             cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
             cupidatat non proident, sunt in culpa qui officia deserunt mollit
             anim id est laborum.{" "}
-            <a className="gold" href="/">
+            <a className="gold" href="/simple-business-website-template">
               Read More
             </a>
           </div>
