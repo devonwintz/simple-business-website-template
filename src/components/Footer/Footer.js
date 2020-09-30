@@ -27,8 +27,7 @@ class Footer extends Component {
               </div>
               <div className="footer-subheading mt-3">Our Office</div>
               <div>
-                <img src={pinIcon} width="3%" alt="pin-icon" /> Street Address,
-                Address Line, City, State/Province/Region
+                <img src={pinIcon} width="3%" alt="pin-icon" /> XYZ Street Address, City, State/Province/Region
               </div>
               <div className="mt-3 footer-subheading">Contact Us</div>
               <div>

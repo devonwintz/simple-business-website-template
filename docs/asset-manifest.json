@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/simple-business-website-template/static/css/main.8d7c8e8d.chunk.css",
-    "main.js": "/simple-business-website-template/static/js/main.9e12ca3b.chunk.js",
-    "main.js.map": "/simple-business-website-template/static/js/main.9e12ca3b.chunk.js.map",
+    "main.js": "/simple-business-website-template/static/js/main.6cb7a0b7.chunk.js",
+    "main.js.map": "/simple-business-website-template/static/js/main.6cb7a0b7.chunk.js.map",
     "runtime-main.js": "/simple-business-website-template/static/js/runtime-main.cf0bc627.js",
     "runtime-main.js.map": "/simple-business-website-template/static/js/runtime-main.cf0bc627.js.map",
-    "static/js/2.003368f5.chunk.js": "/simple-business-website-template/static/js/2.003368f5.chunk.js",
-    "static/js/2.003368f5.chunk.js.map": "/simple-business-website-template/static/js/2.003368f5.chunk.js.map",
+    "static/js/2.cecd612d.chunk.js": "/simple-business-website-template/static/js/2.cecd612d.chunk.js",
+    "static/js/2.cecd612d.chunk.js.map": "/simple-business-website-template/static/js/2.cecd612d.chunk.js.map",
     "index.html": "/simple-business-website-template/index.html",
-    "precache-manifest.d08797c2ab9c1294db815843218fae7f.js": "/simple-business-website-template/precache-manifest.d08797c2ab9c1294db815843218fae7f.js",
+    "precache-manifest.8d891ef4eba4ecd5cdabfcf8da5b21e4.js": "/simple-business-website-template/precache-manifest.8d891ef4eba4ecd5cdabfcf8da5b21e4.js",
     "service-worker.js": "/simple-business-website-template/service-worker.js",
     "static/css/main.8d7c8e8d.chunk.css.map": "/simple-business-website-template/static/css/main.8d7c8e8d.chunk.css.map",
-    "static/js/2.003368f5.chunk.js.LICENSE.txt": "/simple-business-website-template/static/js/2.003368f5.chunk.js.LICENSE.txt",
+    "static/js/2.cecd612d.chunk.js.LICENSE.txt": "/simple-business-website-template/static/js/2.cecd612d.chunk.js.LICENSE.txt",
     "static/media/coding.png": "/simple-business-website-template/static/media/coding.4278d960.png",
     "static/media/email-gold.png": "/simple-business-website-template/static/media/email-gold.9aa1f1e5.png",
     "static/media/instagram-gold.png": "/simple-business-website-template/static/media/instagram-gold.847640e1.png",
@@ -27,8 +27,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.cf0bc627.js",
-    "static/js/2.003368f5.chunk.js",
+    "static/js/2.cecd612d.chunk.js",
     "static/css/main.8d7c8e8d.chunk.css",
-    "static/js/main.9e12ca3b.chunk.js"
+    "static/js/main.6cb7a0b7.chunk.js"
   ]
 }
