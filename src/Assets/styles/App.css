@@ -118,7 +118,6 @@ footer {
   padding-bottom: 1%;
   color: #ffffff;
   width: 100%;
-  position: absolute;
   margin-top: auto;
   bottom: 0;
   left: 0;
@@ -147,12 +146,13 @@ footer a {
 }
 
 footer .footer-mainheading {
+  font-size: 125%;
   font-weight: bold;
   color: #daa520;
 }
 
 footer .footer-subheading {
-  font-size: 90%;
+  font-size: 110%;
   font-weight: bold;
   color: #daa520;
 }
@@ -232,12 +232,12 @@ footer .footer-subheading {
 }
 
 .main-heading {
-  font-size: 120%;
+  font-size: 200%;
   font-weight: bold;
 }
 
 .sub-heading {
-  font-size: 100%;
+  font-size: 125%;
   font-weight: bold;
 }
 
@@ -304,5 +304,16 @@ footer .footer-subheading {
     width: 15%;
     margin-top: 5%;
   }
+}
+
+.content-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  min-height: 100vh;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 /*# sourceMappingURL=App.css.map */

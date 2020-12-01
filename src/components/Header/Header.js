@@ -12,7 +12,7 @@ class Header extends Component {
   }
 
   renderTooltip = (props) => (
-    <Tooltip {...props}>Currently, under construction</Tooltip>
+    <Tooltip {...props}> Currently, under construction </Tooltip>
   );
 
   render() {
@@ -35,10 +35,9 @@ class Header extends Component {
             aria-label="Toggle navigation"
           >
             <span className="navbar-toggler-icon">
-              <i className="fas fa-bars"></i>
+              <i className="fas fa-bars"> </i>
             </span>
           </button>
-
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav ml-auto">
               <li className="nav-item active">

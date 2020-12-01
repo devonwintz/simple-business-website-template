@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/simple-business-website-template/static/css/main.7e56abcc.chunk.css",
-    "main.js": "/simple-business-website-template/static/js/main.430ac017.chunk.js",
-    "main.js.map": "/simple-business-website-template/static/js/main.430ac017.chunk.js.map",
+    "main.css": "/simple-business-website-template/static/css/main.6daa3615.chunk.css",
+    "main.js": "/simple-business-website-template/static/js/main.7ecd4a59.chunk.js",
+    "main.js.map": "/simple-business-website-template/static/js/main.7ecd4a59.chunk.js.map",
     "runtime-main.js": "/simple-business-website-template/static/js/runtime-main.cf0bc627.js",
     "runtime-main.js.map": "/simple-business-website-template/static/js/runtime-main.cf0bc627.js.map",
-    "static/js/2.cecd612d.chunk.js": "/simple-business-website-template/static/js/2.cecd612d.chunk.js",
-    "static/js/2.cecd612d.chunk.js.map": "/simple-business-website-template/static/js/2.cecd612d.chunk.js.map",
+    "static/js/2.cb8dd889.chunk.js": "/simple-business-website-template/static/js/2.cb8dd889.chunk.js",
+    "static/js/2.cb8dd889.chunk.js.map": "/simple-business-website-template/static/js/2.cb8dd889.chunk.js.map",
     "index.html": "/simple-business-website-template/index.html",
-    "precache-manifest.7540e145b20cec17a7600f3e1e542bde.js": "/simple-business-website-template/precache-manifest.7540e145b20cec17a7600f3e1e542bde.js",
+    "precache-manifest.d2760ce9b93e563964bbf14769e5ba89.js": "/simple-business-website-template/precache-manifest.d2760ce9b93e563964bbf14769e5ba89.js",
     "service-worker.js": "/simple-business-website-template/service-worker.js",
-    "static/css/main.7e56abcc.chunk.css.map": "/simple-business-website-template/static/css/main.7e56abcc.chunk.css.map",
-    "static/js/2.cecd612d.chunk.js.LICENSE.txt": "/simple-business-website-template/static/js/2.cecd612d.chunk.js.LICENSE.txt",
+    "static/css/main.6daa3615.chunk.css.map": "/simple-business-website-template/static/css/main.6daa3615.chunk.css.map",
+    "static/js/2.cb8dd889.chunk.js.LICENSE.txt": "/simple-business-website-template/static/js/2.cb8dd889.chunk.js.LICENSE.txt",
     "static/media/coding.png": "/simple-business-website-template/static/media/coding.4278d960.png",
     "static/media/email-gold.png": "/simple-business-website-template/static/media/email-gold.9aa1f1e5.png",
     "static/media/instagram-gold.png": "/simple-business-website-template/static/media/instagram-gold.847640e1.png",
@@ -27,8 +27,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.cf0bc627.js",
-    "static/js/2.cecd612d.chunk.js",
-    "static/css/main.7e56abcc.chunk.css",
-    "static/js/main.430ac017.chunk.js"
+    "static/js/2.cb8dd889.chunk.js",
+    "static/css/main.6daa3615.chunk.css",
+    "static/js/main.7ecd4a59.chunk.js"
   ]
 }

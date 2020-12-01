@@ -4,15 +4,17 @@ import React from "react";
 
 const WhoWeAre = () => {
   return (
-    <div className="mt-5 mb-5 service">
+    <div className="mt-5 service container-fluid">
       <div className="row" id="who-we-are">
         {/*Full Row On XS Screens & Small Screens. While Half Row On Medium To XS Screens*/}
         <div className="col-12 col-sm-12 col-md-6">
           <div className="d-none d-lg-block text-center bigLabel">
             WHO <br />
-            <span class="biggerLabel">WE </span>ARE
+            <span className="biggerLabel">WE </span>ARE
           </div>
-          <div className="d-none d-lg-block text-center">Helping People Work Smarter</div>
+          <div className="d-none d-lg-block text-center">
+            Helping People Work Smarter
+          </div>
         </div>
 
         <div className="col-12 col-md-12 d-block d-md-block d-lg-none">

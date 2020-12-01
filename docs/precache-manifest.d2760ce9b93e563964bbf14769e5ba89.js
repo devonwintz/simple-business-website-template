@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "46cfa447b21d3458d853c1c41e53ce32",
+    "revision": "f46a9754b5f9d64a8c25da97bf212942",
     "url": "/simple-business-website-template/index.html"
   },
   {
-    "revision": "aea8d488a2094e2ddab5",
-    "url": "/simple-business-website-template/static/css/main.7e56abcc.chunk.css"
+    "revision": "a14538d8d82efe311be0",
+    "url": "/simple-business-website-template/static/css/main.6daa3615.chunk.css"
   },
   {
-    "revision": "b06900421fa8063efb55",
-    "url": "/simple-business-website-template/static/js/2.cecd612d.chunk.js"
+    "revision": "54baa9019565c4f5f833",
+    "url": "/simple-business-website-template/static/js/2.cb8dd889.chunk.js"
   },
   {
     "revision": "e0b6d5ca2097eb35c2c49c8d1d398368",
-    "url": "/simple-business-website-template/static/js/2.cecd612d.chunk.js.LICENSE.txt"
+    "url": "/simple-business-website-template/static/js/2.cb8dd889.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "aea8d488a2094e2ddab5",
-    "url": "/simple-business-website-template/static/js/main.430ac017.chunk.js"
+    "revision": "a14538d8d82efe311be0",
+    "url": "/simple-business-website-template/static/js/main.7ecd4a59.chunk.js"
   },
   {
     "revision": "43a8f6cf3aa2b2c34ebe",
