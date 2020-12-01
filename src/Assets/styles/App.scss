@@ -1,8 +1,12 @@
-@import './Config';
-@import './Header';
-@import './Footer';
-@import './Carousel';
-@import './WhoWeAre';
-@import './Services';
-@import './Mobile';
-
+@import "./Config";
+@import "./Header";
+@import "./Footer";
+@import "./Carousel";
+@import "./WhoWeAre";
+@import "./Services";
+@import "./Mobile";
+.content-wrapper {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}

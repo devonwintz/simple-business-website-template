@@ -5,12 +5,10 @@ import coding from "../../Assets/images/services/coding.png";
 import settings from "../../Assets/images/services/settings.png";
 import computer from "../../Assets/images/services/computer.png";
 import websiteDesign from "../../Assets/images/services/website-design.png";
-/*import websiteOptimization from "../../Assets/images/services/website-optimization.png";
-import analytics from "../../Assets/images/services/analytics.png";*/
 
 const Services = () => {
   return (
-    <div className="mt-5 mb-5 service">
+    <div className="mt-5 mt-mb-0 mb-5 service">
       <div className="center main-heading">WHAT WE DO?</div>
       <hr className="horizontal-line" />
       <div className="center mt-3">

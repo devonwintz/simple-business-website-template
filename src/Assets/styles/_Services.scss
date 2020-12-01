@@ -1,21 +1,24 @@
 .main-heading {
-  font-size: $navFontSize;
-  font-weight: bold;
-}
-.sub-heading {
-  font-size: $defaultFontSize;
-  font-weight: bold;
-}
-.what-we-d0-content,
-.reasons {
-  font-size: $smallFontSize;
-  font-weight: normal;
-}
-.center {
-  text-align: center;
-}
-.horizontal-line {
-  background-color: $gold;
-  height: 0.3px;
+    font-size: 200%;
+    font-weight: bold;
 }
 
+.sub-heading {
+    font-size: 125%;
+    font-weight: bold;
+}
+
+.what-we-d0-content,
+.reasons {
+    font-size: $smallFontSize;
+    font-weight: normal;
+}
+
+.center {
+    text-align: center;
+}
+
+.horizontal-line {
+    background-color: $gold;
+    height: 0.3px;
+}
